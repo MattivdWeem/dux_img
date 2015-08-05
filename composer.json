@@ -1,0 +1,19 @@
+{
+    "name": "duxilio/imageserver",
+    "description": "Hosts and uploads images for duxilio",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matti van de Weem",
+            "email": "mattiweem@hotmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+      "psr-4": {
+        "Duxilio\\imageServer\\": "src/"
+      }
+    }
+}
